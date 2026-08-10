@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background: #92EEFF;
+}
+.main{
+    padding: 10px 20px;
+}
+.same{
+    display: flex;
+    justify-content: space-between;
+}
+.same input{
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+.same button{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #FFC5AA;
+    color: aliceblue;
+    font-size: 20px;
+}
+button:active{
+  transform: scale(1.1);
+}
+h2{
+    color: rgb(21, 69, 117);
+    font-weight: 100;
+}
+.inputno2{
+    display: none;
+}
