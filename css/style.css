@@ -45,4 +45,6 @@ h2{
 }
 .inputno2{
     display: none;
+    justify-content: space-between;
+    
 }
